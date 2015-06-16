@@ -1,0 +1,57 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <div>atividade 6 </div>
+        <script> 
+          var Nome;
+          var Idade;
+          var Sexo; 
+          
+          
+          Nome = prompt('Digite o nome da pessoa:', '');
+	Idade = prompt('Digite a idade da pessoa', 'ex. 26').replace(',', '.');
+        Sexo = prompt('Digite o sexo da pessoa:', 'ex: Mulher ou Homem');
+        
+        
+        
+        
+        
+        document.write('<strong>Nome: </strong>' + nome + ', <strong>Idade:</strong> ' + idade + ',<strong>Sexo:<strong>' + Sexo);
+       
+        
+        if (sexo == 'Homem' && Idade >= 30) { 
+                  Faixa = 'Homem com mais de 30 anos';
+                  
+                } else if  (sexo == 'Mulher' && idade <= 25) {
+			faixa = 'Mulher com menos de 25 anos';
+		} else if (Sexo == 'Homem' && idade >= 20) {
+                        faixa = 'Homem com mais de 40 anos';
+                } else if (Sexo == 'Homem' && idade > 40) {
+                        faixa = 'Homem com mais de 40 anos';
+                } else if (Sexo == 'Mulher' && idade > 50) {
+                        faixa = 'Mulher com mais de 50 anos';  
+                } else if (Sexo == 'Mulher' && idade < 20) {
+                        faixa = 'Mulher com mais de 20 anos';
+                  } else if (Sexo == 'Mulher' && idade < 25) {
+                        faixa = 'Mulher com mais de 25 anos';
+                   } else if (Sexo == 'Mulher' && idade < 35) {
+                        faixa = 'Mulher com mais de 35 anos';
+                    }
+                   
+		document.write('<br/><br/><strong>Faixa etária: </strong>' + faixa);
+        
+       
+        
+		
+            
+        </script> 
+        
+        
+    </body>
+</html>
